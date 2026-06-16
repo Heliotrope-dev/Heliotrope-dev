@@ -9,6 +9,19 @@
 
 ---
 
+## Local AI Infrastructure
+
+在本地运行一套完整的多模型 Agent 环境：
+
+| 层级 | 工具 | 说明 |
+|------|------|------|
+| Agent 平台 | **OpenClaw** | 多渠道 Agent 调度，支持 WhatsApp · 终端等接入 |
+| 本地推理 | **Ollama · Qwen3 14B** | 隐私任务 / 离线推理，零 API 成本 |
+| 云端推理 | **DeepSeek Chat / Reasoner** | 复杂推理与长上下文任务 |
+| 开发工具 | **Claude Code · Cursor** | AI 辅助全栈开发 |
+
+---
+
 ## Tech Stack
 
 **Languages**
