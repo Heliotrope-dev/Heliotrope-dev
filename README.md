@@ -56,6 +56,7 @@
 | **[马里奥平台游戏](https://github.com/Heliotrope-dev/platform-game)** | 2400 行纯 JS 实现，含自研芯片音乐引擎与三阶段 Boss 战 | JavaScript · Canvas · Web Audio API |
 | **[Fourier 级数可视化](https://github.com/Heliotrope-dev/fourier-plot)** | 交互式动画演示 Fourier 级数逼近原理 | Python / JS · 数学可视化 |
 | **[贪吃蛇游戏](https://github.com/Heliotrope-dev/snake-game)** | 经典游戏复刻，含分数持久化 | JavaScript |
+| **[俄罗斯方块](https://github.com/Heliotrope-dev/tetris-game)** | 苏联构成主义海报风格，含 7-bag 随机、暂存与幽灵方块 | JavaScript · Canvas |
 | **个人网站** | 个人作品集与博客 | JavaScript · HTML/CSS |
 
 ---
