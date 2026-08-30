@@ -2,7 +2,7 @@
 
 # Hi, I'm 蒋天奇 (Tianqi Jiang)
 
-杭州师范大学数学与应用数学专业大三在读。平时用 Claude Code 这类工具做 AI Agent 相关的全栈开发，从后端服务、数据管道到部署运维都自己上手，感兴趣的方向是 Agent 架构和多模型协作系统的工程落地。
+杭州师范大学数学与应用数学专业大三在读。平时用 Claude Code，codex 这类工具做 AI Agent 相关的全栈开发，从后端服务、数据管道到部署运维都自己上手，感兴趣的方向是 Agent 架构和多模型协作系统的工程落地。
 
 杭州 &nbsp;|&nbsp; 杭州师范大学
 
@@ -14,9 +14,9 @@
 
 | 层级 | 工具 | 说明 |
 |------|------|------|
-| Agent 平台 | **OpenClaw** | 多渠道 Agent 调度，支持 WhatsApp、终端等接入方式 |
+| Agent 平台 | **OpenClaw** | 多渠道 Agent 调度，支持微信，企业微信等接入方式 |
 | 本地推理 | **Ollama · Gemma 4** | 处理不适合走 API 的任务，零成本离线推理 |
-| 云端推理 | **DeepSeek Chat / Reasoner** | 复杂推理和长上下文任务 |
+| 云端推理 | **Claude，Gemini,GPT,Deepseek,Qwen** | 复杂推理和长上下文任务 |
 | 开发工具 | **Claude Code · Cursor** | 日常写代码用的 AI 辅助工具 |
 
 ---
