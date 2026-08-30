@@ -1,24 +1,23 @@
-> 数学系在读 · AI 全栈开发者 · 将数学直觉转化为工程实现
+> 数学系在读 · 业余时间做 AI Agent 全栈开发
 
 # Hi, I'm 蒋天奇 (Tianqi Jiang)
 
-杭州师范大学数学与应用数学大二在读，专注 AI 全栈开发与 Agent 架构设计。  
-热衷于把数学思维带入工程实践——从可视化算法到构建自主 AI 系统。
+杭州师范大学数学与应用数学专业大三在读。平时用 Claude Code 这类工具做 AI Agent 相关的全栈开发，从后端服务、数据管道到部署运维都自己上手，感兴趣的方向是 Agent 架构和多模型协作系统的工程落地。
 
-📍 杭州 &nbsp;|&nbsp; 🎓 杭州师范大学 &nbsp;|&nbsp; 💼 寻找 AI Agent 方向实习
+杭州 &nbsp;|&nbsp; 杭州师范大学
 
 ---
 
 ## Local AI Infrastructure
 
-在本地运行一套完整的多模型 Agent 环境：
+自己在本地维护一套多模型 Agent 环境：
 
 | 层级 | 工具 | 说明 |
 |------|------|------|
-| Agent 平台 | **OpenClaw** | 多渠道 Agent 调度，支持 WhatsApp · 终端等接入 |
-| 本地推理 | **Ollama · Qwen3 14B** | 隐私任务 / 离线推理，零 API 成本 |
-| 云端推理 | **DeepSeek Chat / Reasoner** | 复杂推理与长上下文任务 |
-| 开发工具 | **Claude Code · Cursor** | AI 辅助全栈开发 |
+| Agent 平台 | **OpenClaw** | 多渠道 Agent 调度，支持 WhatsApp、终端等接入方式 |
+| 本地推理 | **Ollama · Qwen3 14B** | 处理不适合走 API 的任务，零成本离线推理 |
+| 云端推理 | **DeepSeek Chat / Reasoner** | 复杂推理和长上下文任务 |
+| 开发工具 | **Claude Code · Cursor** | 日常写代码用的 AI 辅助工具 |
 
 ---
 
@@ -52,22 +51,19 @@
 
 | 项目 | 描述 | 技术栈 |
 |------|------|--------|
+| **[Invest Agent](https://github.com/Heliotrope-dev/finance-agent)** | 多市场行情+财务+新闻交叉验证的投研工具，AI 只做交叉核实和总结，不做黑箱荐股，线上跑着自己在用 | Python · Streamlit · Futu OpenAPI |
 | **[Math Solver Agent](https://github.com/Heliotrope-dev/math-agent)** | 基于 LLM Tool Use 的数学解题 Agent，含 Agentic Loop、符号计算引擎与步骤分解工具 | Python · Tool Use · SymPy |
-| **[马里奥平台游戏](https://github.com/Heliotrope-dev/platform-game)** | 2400 行纯 JS 实现，含自研芯片音乐引擎与三阶段 Boss 战 | JavaScript · Canvas · Web Audio API |
-| **[Fourier 级数可视化](https://github.com/Heliotrope-dev/fourier-plot)** | 交互式动画演示 Fourier 级数逼近原理 | Python / JS · 数学可视化 |
-| **[贪吃蛇游戏](https://github.com/Heliotrope-dev/snake-game)** | 经典游戏复刻，含分数持久化 | JavaScript |
-| **[俄罗斯方块](https://github.com/Heliotrope-dev/tetris-game)** | 苏联构成主义海报风格，含 7-bag 随机、暂存与幽灵方块 | JavaScript · Canvas |
-| **个人网站** | 个人作品集与博客 | JavaScript · HTML/CSS |
+| **[OpenClaw 搭建实战](https://github.com/Heliotrope-dev/openclaw-setup-guide)** | 私人 AI 助手落地记录：微信接入、远程控制、7x24 小时稳定运行的踩坑总结 | OpenClaw · 部署运维 |
 
 ---
 
 ## About Me
 
-- 🧮 &nbsp;数学系背景，对算法可视化和数学直觉的工程化表达有持续热情
-- 🤖 &nbsp;熟悉主流 LLM API，具备 Prompt Engineering 与 Agent 流程设计经验
-- 🛠️ &nbsp;擅长使用 AI 辅助工具（Claude Code / Cursor）高效完成全栈项目
-- 📡 &nbsp;具备 Linux 运维能力，可独立部署和管理服务端环境
-- 🔍 &nbsp;正在深入研究：多智能体协作架构 & RAG 系统设计
+- 数学系背景，平时喜欢把抽象的算法/数学概念做成可交互的可视化
+- 用过主流 LLM 的 API，写过 Prompt、也搭过完整的 Agent 流程，不只是调接口
+- 日常用 Claude Code / Cursor 这类工具写代码，效率工具本身也是我感兴趣的部分
+- 能自己搭 Linux 服务器、部署服务、写运维脚本，项目上线之后的维护也自己扛
+- 最近在看多智能体协作和 RAG 相关的设计，还在实践阶段，没到能写文章的程度
 
 ---
 
@@ -84,4 +80,4 @@
 
 [![Email](https://img.shields.io/badge/Email-a13989358483%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:a13989358483@gmail.com)
 
-> 💡 对 AI Agent、LLM 工程化、全栈开发方向的机会欢迎联系。
+> 对 AI Agent / LLM 工程化相关的交流合作感兴趣，欢迎邮件联系。
