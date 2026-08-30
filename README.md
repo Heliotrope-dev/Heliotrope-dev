@@ -15,7 +15,7 @@
 | 层级 | 工具 | 说明 |
 |------|------|------|
 | Agent 平台 | **OpenClaw** | 多渠道 Agent 调度，支持 WhatsApp、终端等接入方式 |
-| 本地推理 | **Ollama · Qwen3 14B** | 处理不适合走 API 的任务，零成本离线推理 |
+| 本地推理 | **Ollama · Gemma 4** | 处理不适合走 API 的任务，零成本离线推理 |
 | 云端推理 | **DeepSeek Chat / Reasoner** | 复杂推理和长上下文任务 |
 | 开发工具 | **Claude Code · Cursor** | 日常写代码用的 AI 辅助工具 |
 
